@@ -1,46 +1,27 @@
 @import "~bulma/sass/utilities/initial-variables"
 
-// Config vars
-$kaldi-red: #FD461E
-$kaldi-red-invert: #fff
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,700')
 
-$primary: $kaldi-red
-$primary-invert: $kaldi-red-invert
-  
-.content .taglist
-  list-style: none
-  margin-bottom: 0
-  margin-left: 0
-  margin-right: 1.5rem
-  margin-top: 1.5rem
-  display: flex
-  flex-wrap: wrap
-  justify-content: left
-  align-items: center
-  li
-    padding: 0 2rem 1rem 0
-    margin-bottom: 1.5rem
-    margin-top: 0
+// Set your brand colors
+$purple: #8A4D76;
+$blue: #2196F3;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
 
-// Helper Classes
-.full-width-image-container
-  width: 100vw
-  height: 400px
-  position: relative
-  left: 50%
-  right: 50%
-  margin: 5em -50vw
-  background-size: cover
-  background-position: bottom
-  display: flex
-  justify-content: center
-  align-items: center
+// Update Bulma's global variables
+$family-sans-serif: "Nunito", serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $blue;
 
-.margin-top-0
-  margin-top: 0 !important
+// Update some of Bulma's component variables
+$control-border-width: 2px;
+$input-background-color: $beige-lighter;
+$input-border-color: transparent;
+$input-shadow: none;
 
 @import "~bulma"
 
 
-.navbar-item img 
-  max-height: 2.75rem

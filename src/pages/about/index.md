@@ -1,18 +1,25 @@
 ---
 templateKey: about-page
-title: About our values
+title: I'm a Developer
 ---
-### Shade-grown coffee
-Coffee is a small tree or shrub that grows in the forest understory in its wild form, and traditionally was grown commercially under other trees that provided shade. The forest-like structure of shade coffee farms provides habitat for a great number of migratory and resident species.
 
-### Single origin
-Single-origin coffee is coffee grown within a single known geographic origin. Sometimes, this is a single farm or a specific collection of beans from a single country. The name of the coffee is then usually the place it was grown to whatever degree available.
+# Career
 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
+### Most of my history is tracked:
+<a class='button is-link'  href='https://github.com/OR13' rel="noopener noreferrer">Github</a>  <a class='button is-link' href='https://www.linkedin.com/in/or13b/' rel="noopener noreferrer">LinkedIn</a>
 
-### Direct sourcing
-Direct trade is a form of sourcing practiced by some coffee roasters. Advocates of direct trade practices promote direct communication and price negotiation between buyer and farmer, along with systems that encourage and incentivize quality.
+```js
+(async () => {
+  console.log('I know javascript.');
+})();
+```
 
-### Reinvest profits
-We want to truly empower the communities that bring amazing coffee to you. That’s why we reinvest 20% of our profits into farms, local businesses and schools everywhere our coffee is grown. You can see the communities grow and learn more about coffee farming on our blog.
+I've worked in various industries including finance, healthcare, manufacturing, oil and gas, etc...
+
+I have a BS in Cyber Security and an MS in Computer Science from Stevens Institute of Technology.
+
+Recently, I've been developing decentralized applications using Ethereum, IPFS and other distributed technologies.
+
+<object onmouseout='alert(1)' type="image/svg+xml" data='/img/block.svg' style="display: block; margin: auto; width: 100px; filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg)"/>
+
+

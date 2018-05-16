@@ -7,9 +7,10 @@ import particles from '../data/particles.blocks.json';
 import Content, { HTMLContent } from '../components/Content';
 
 import { MuiThemeProvider } from 'material-ui/styles';
+import theme from '../themes/default';
 
 import Button from 'material-ui/Button';
-import theme from '../themes/default';
+
 
 export const ParticlesPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -37,11 +38,11 @@ export const ParticlesPageTemplate = ({ title, content, contentComponent }) => {
                   backgroundSize: 'cover'
                 }}
               />
-              <MuiThemeProvider theme={theme}>
+            
                 <Button variant="raised" color="primary">
                   Hello World
                 </Button>
-              </MuiThemeProvider>
+        
             </div>
           </div>
         </div>
