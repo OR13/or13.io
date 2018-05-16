@@ -67,7 +67,7 @@
     "events": {
       "onhover": {
         "enable": true,
-        "mode": "grab"
+        "mode": "bubble grab"
       },
       "onclick": {
         "enable": true,
@@ -90,11 +90,11 @@
         "speed": 0.1
       },
       "repulse": {
-        "distance": 200,
-        "duration": 10
+        "distance": 100,
+        "duration": 50
       },
       "push": {
-        "particles_nb": 10
+        "particles_nb": 5
       },
       "remove": {
         "particles_nb": 10

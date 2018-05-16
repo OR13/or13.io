@@ -2,7 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Particles from 'react-particles-js';
-import particles from '../data/particles.blocks.json';
+
+import particlesA from '../data/particles.blocks.json';
+import particlesB from '../data/particles.hexagons.json';
 
 import Content, { HTMLContent } from '../components/Content';
 
@@ -10,7 +12,6 @@ import { MuiThemeProvider } from 'material-ui/styles';
 import theme from '../themes/default';
 
 import Button from 'material-ui/Button';
-
 
 export const ParticlesPageTemplate = ({ title, content, contentComponent }) => {
   const PageContent = contentComponent || Content;
@@ -27,8 +28,8 @@ export const ParticlesPageTemplate = ({ title, content, contentComponent }) => {
               <PageContent className="content" content={content} />
               <Particles
                 params={{
-                  particles: particles.particles,
-                  interactivity: particles.interactivity
+                  particles: particlesA.particles,
+                  interactivity: particlesA.interactivity
                 }}
                 style={{
                   backgroundImage:
@@ -38,11 +39,24 @@ export const ParticlesPageTemplate = ({ title, content, contentComponent }) => {
                   backgroundSize: 'cover'
                 }}
               />
-            
-                <Button variant="raised" color="primary">
-                  Hello World
-                </Button>
-        
+
+              <Particles
+                params={{
+                  particles: particlesB.particles,
+                  interactivity: particlesB.interactivity
+                }}
+                style={{
+                  backgroundImage:
+                    'url("https://source.unsplash.com/random/1280x1024")',
+                  backgroundColor: 'grey',
+                  backgroundBlendMode: 'screen',
+                  backgroundSize: 'cover'
+                }}
+              />
+
+              <Button variant="raised" color="primary">
+                Hello World
+              </Button>
             </div>
           </div>
         </div>
